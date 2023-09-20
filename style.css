@@ -1,0 +1,373 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 20px;
+}
+
+nav {
+    width: 60%;
+    padding-right: 10px;
+    
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: .5s; 
+}
+
+li:hover {
+    color: red;
+   
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    display: flex;
+   
+}
+
+
+#banner {
+    background-image: url('https://grapodpada.pl/wp-content/uploads/2022/03/The-batman-tytul.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#trailer-conteiner{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    color: white;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 70%;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.actor-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:  0 0 20px 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.box-comentarios{
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    /* padding-top: 40px; */
+    justify-content: space-between;
+    padding: 40px 10px 40px 10px;
+    transition: 1s;
+}
+
+.cards-comentarios:hover {
+    transform: scale(1.02);
+    border: 1px solid #fff;
+}
+
+.cards-comentarios {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    align-items: center;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    box-shadow: 6px 6px 10px red;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://noticiasdatv.uol.com.br/media/uploads/artigos_2021/batman-robert-pattinson-foto-divulgacao-warner-bros.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://pbs.twimg.com/media/FMOk4EiXEAURgip.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://static.wikia.nocookie.net/batman/images/3/36/Jim_Gordon_Total_Film_still.webp/revision/latest?cb=20220220041206');
+}
+
+.banner-4 {
+    background-image: url('https://www.hitsite.com.br/wp-content/uploads/2022/02/Imagem-Destaca-NS-28-2.jpg');
+}
+
+.banner-5 {
+    background-image: url('https://s2-g1.glbimg.com/K2-OmjtNs9NedtX_XZhWCHH6MUU=/0x0:4297x1800/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/G/o/oE1cw2SIS04FCsRSXkcA/the-batman-colin-farrell.jpeg');
+}
+
+.banner-6 {
+    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2022/02/Charada-em-The-Batman.jpg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+.footer-navigation{ 
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.user {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.stars {
+    display: block;
+}
+
+.star {
+    width: 20px;
+    padding-top: 10px;
+    flex-direction: row;
+}
+
+p {
+    color: white;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.box-form {
+   width: 100%;
+   height: 600px;
+   background: url('https://images6.alphacoders.com/113/1134871.jpg');
+   background-position: 50% 50%;
+   background-size: cover;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   display: flex;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    font-size: 18px;
+    width: 50%;
+    margin: 20px 5%;
+    background-color: rgba(200, 0, 0, 0);
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 10px;
+    transition: .5s;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 10px;
+    transition: .5s;
+    background-color: rgba(0, 0, 0, 0.7);
+
+ }    
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner{
+        background-position: 40%;
+    }
+
+    #trailer-container{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+
+    .box-comentarios {
+        grid-template-columns: 1fr;
+        
+    }
+}
